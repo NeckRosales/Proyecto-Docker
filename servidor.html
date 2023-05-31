@@ -1,0 +1,26 @@
+<!--Crear una función en JavaScript que lea un archivo html y lo muestre en un servidor-->
+<!--Alumno: Vivas Rosales Neck Manuel-->
+<!--Grado y Grupo: 4to B-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1 style = "margin-top: 50px; text-align: center;"> Programación Distribuida de Servicios de Internet </h1>
+<h1 style = "margin-top: 50px; text-align: center;"> 4to Semestre Grupo B </h1>
+<p><h1 style = "margin-top: 100px; text-align: center;"> Nombre: Vivas Rosales Neck Manuel </h1></p>
+<div style = "margin-top: 100px; text-align: center;" id = "fechadia"></div>
+    <script>
+        fecha = new Date();
+        year = fecha.getFullYear();
+        mes = fecha.getMonth() + 1;
+        dia = fecha.getDate();
+        document.getElementById("fechadia").innerHTML = dia + "/" + mes + "/" + year;
+        </script>
+</body>
+</html>
